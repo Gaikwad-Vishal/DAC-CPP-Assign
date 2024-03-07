@@ -10,9 +10,9 @@ struct Date
 
 void initDate(struct Date *ptrDate)
 {
-    ptrDate->day = 12;
-    ptrDate->month = 05;
-    ptrDate->year = 2002;
+    ptrDate->day = 1;
+    ptrDate->month = 1;
+    ptrDate->year = 2000;
 }
 void printDateOnConsole(struct Date *ptrDate)
 {

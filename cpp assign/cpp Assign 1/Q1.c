@@ -7,9 +7,9 @@ struct Date
 };
 void initDate(struct Date *ptrDate)
 {
-    ptrDate->day = 14;
-    ptrDate->month = 8;
-    ptrDate->year = 2001;
+    ptrDate->day = 1;
+    ptrDate->month = 1;
+    ptrDate->year = 2000;
 }
 void printDateOnConsole(struct Date *ptrDate)
 {
