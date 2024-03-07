@@ -1,5 +1,6 @@
 #include <iostream>
-using namespace std;
+using namespace std; 
+namespace Nstudent{
 class Student
 {
     int rollno;
@@ -28,12 +29,13 @@ public:
         cout << "enter marks ";
         cin >> marks;
     }
-};
+};}
 
 int main()
 {
     int choice;
-    Student s;
+    //using namepspace Nstudent ;
+    Nstudent::Student s;
     s.initStudent();
     do
     {
